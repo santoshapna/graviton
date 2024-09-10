@@ -1,0 +1,13 @@
+{
+  "servicePricing": [
+    {"name":  "S1", "charge":  1},
+    {"name":  "S2", "charge":  2},
+    {"name":  "S3", "charge":  3}
+  ],
+
+  "creditPackage" : [
+    {"name" :  "Basic", "cost": 100, "currency" :  "$", "credit" :  100},
+    {"name" :  "Standard", "cost": 225, "currency" :  "$", "credit" :  250},
+    {"name" :  "Premium", "cost": 450, "currency" :  "$", "credit" :  500}
+  ]
+}

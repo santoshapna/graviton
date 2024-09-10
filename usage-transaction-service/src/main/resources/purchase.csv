@@ -1,0 +1,6 @@
+#timestamp(Epoch timestamp),userid,packageId,quantity
+1725195022,user1,Basic,2
+1725195022,user1,Standard,2
+1725281422,user2,Standard,1
+1725367822,user1,Standard,1
+1725358822,user2,Premium,1

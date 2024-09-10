@@ -1,0 +1,99 @@
+[
+  {
+    "User": "user1",
+    "Transactions": [
+      {
+        "Time": 1725195021,
+        "Type": "DEBIT",
+        "Service": "S1",
+        "Status": "DENIED",
+        "Balance": 0
+      },
+      {
+        "Time": 1725195022,
+        "Type": "CREDIT",
+        "Package": "Basic",
+        "Status": "SUCCESS",
+        "Quantity": 2,
+        "Balance": 200
+      },
+      {
+        "Time": 1725195022,
+        "Type": "CREDIT",
+        "Package": "Standard",
+        "Status": "SUCCESS",
+        "Quantity": 2,
+        "Balance": 700
+      },
+      {
+        "Time": 1725195321,
+        "Type": "DEBIT",
+        "Service": "S2",
+        "Status": "SUCCESS",
+        "Quantity": 1,
+        "Balance": 698
+      },
+      {
+        "Time": 1725195321,
+        "Type": "DEBIT",
+        "Service": "S3",
+        "Status": "SUCCESS",
+        "Quantity": 1,
+        "Balance": 695
+      },
+      {
+        "Time": 1725367822,
+        "Type": "CREDIT",
+        "Package": "Standard",
+        "Status": "SUCCESS",
+        "Quantity": 1,
+        "Balance": 945
+      },
+      {
+        "Time": 1725367922,
+        "Type": "DEBIT",
+        "Service": "S3",
+        "Status": "SUCCESS",
+        "Quantity": 1,
+        "Balance": 942
+      }
+    ]
+  },
+  {
+    "User": "user2",
+    "Transactions": [
+      {
+        "Time": 1725281422,
+        "Type": "CREDIT",
+        "Package": "Standard",
+        "Status": "SUCCESS",
+        "Quantity": 1,
+        "Balance": 250
+      },
+      {
+        "Time": 1725281622,
+        "Type": "DEBIT",
+        "Service": "S1",
+        "Status": "SUCCESS",
+        "Quantity": 1,
+        "Balance": 249
+      },
+      {
+        "Time": 1725358822,
+        "Type": "CREDIT",
+        "Package": "Premium",
+        "Status": "SUCCESS",
+        "Quantity": 1,
+        "Balance": 749
+      },
+      {
+        "Time": 1725358822,
+        "Type": "DEBIT",
+        "Service": "S2",
+        "Status": "SUCCESS",
+        "Quantity": 1,
+        "Balance": 747
+      }
+    ]
+  }
+]

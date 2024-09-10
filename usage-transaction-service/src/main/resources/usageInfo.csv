@@ -1,0 +1,7 @@
+# timestamp(Epoch timestamp),userid,serviceId
+1725195021,user1,S1
+1725195321,user1,S2
+1725195321,user1,S3
+1725281622,user2,S1
+1725367922,user1,S3
+1725358822,user2,S2
