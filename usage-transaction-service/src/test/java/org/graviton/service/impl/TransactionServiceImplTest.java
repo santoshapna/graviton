@@ -114,6 +114,9 @@ public class TransactionServiceImplTest {
         assertFalse("Transaction summary should have line items", transactions.isEmpty());
         //first usage is before any credit so it will be denied
         assertEquals("Service usage should not be allowed without enough credit", Status.DENIED, transactions.get(0).getStatus());
+        //first row balance should not be negative
+        assertEquals("Denied service usage should not reduce the balance", 0, transactions.get(0).getBalance());
+
         //second row should have a credit of 1 Basic at time 2
         assertEquals("", packageDetails.get("Basic").getCredit(), transactions.get(1).getBalance());
     }
